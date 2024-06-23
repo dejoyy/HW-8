@@ -1,0 +1,62 @@
+.monday td  {
+    background-color: #ffcccc;
+    padding: 10px;
+}
+
+.tuesday td {
+    background-color: #ccffcc;
+    padding: 10px;
+}
+
+.wednesday td {
+    background-color: #ccccff;
+    padding: 10px;
+}
+
+.thursday td {
+    background-color: #ffffcc;
+    padding: 10px;
+}
+
+.friday td {
+    background-color: #ffccff;
+    padding: 10px;
+}
+
+td:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+td:first-child:hover {
+    font-weight: bold;
+}
+
+td:last-child:hover {
+    font-style: italic;
+}
+
+td:focus {
+    outline: 2px solid #000;
+}
+
+/* Структурні псевдокласи */
+.monday td:nth-child(odd) {
+    background-color: #ff9999;
+}
+
+.tuesday td:nth-child(even) {
+    background-color: #99ff99;
+}
+
+.wednesday td:nth-child(3n) {
+    background-color: #9999ff;
+}
+
+.friday td:nth-child(n+2) {
+    text-decoration: underline;
+}
+
+
+
+
